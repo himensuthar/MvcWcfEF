@@ -5,6 +5,11 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WcfServiceApp", "WcfServiceApp\WcfServiceApp.csproj", "{8673D68C-E27C-4934-A375-5DC22675290B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcApp", "MvcApp\MvcApp.csproj", "{C9F903EC-907B-44B3-A94E-27249D7C0BDA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8673D68C-E27C-4934-A375-5DC22675290B} = {8673D68C-E27C-4934-A375-5DC22675290B}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +20,10 @@ Global
 		{8673D68C-E27C-4934-A375-5DC22675290B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8673D68C-E27C-4934-A375-5DC22675290B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8673D68C-E27C-4934-A375-5DC22675290B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9F903EC-907B-44B3-A94E-27249D7C0BDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9F903EC-907B-44B3-A94E-27249D7C0BDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9F903EC-907B-44B3-A94E-27249D7C0BDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9F903EC-907B-44B3-A94E-27249D7C0BDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
